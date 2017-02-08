@@ -1,0 +1,45 @@
+{
+  "name": "album-sdk",
+  "version": "1.0.0",
+  "description": "album js sdk",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --display-modules --display-chunks --config build/webpack.prod.config.js",
+    "dev": "node build/dev-server.js",
+    "test": "webpack --display-modules --display-chunks --config build/webpack.dev.config.js"
+  },
+  "keywords": [
+    "album",
+    "h5",
+    "webpack"
+  ],
+  "author": "Mill",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-register": "^6.0.0",
+    "css-loader": "^0.23.1",
+    "ejs-loader": "^0.3.0",
+    "express": "^4.14.1",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.10.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^1.7.0",
+    "image-webpack-loader": "^3.2.0",
+    "jsx-loader": "^0.13.2",
+    "opn": "^4.0.2",
+    "sass-loader": "^5.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-hot-middleware": "^2.16.1",
+    "webpack-merge": "^2.6.1",
+    "webpack-zepto": "0.0.1"
+  }
+}
